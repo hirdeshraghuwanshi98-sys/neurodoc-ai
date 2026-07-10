@@ -13,13 +13,13 @@ routing layer** on top: the LLM itself decides which tool to use per-message, an
 plus the retrieved context and generation step — streams to the UI as a live log. This maps
 directly onto the curriculum modules you can point to during a review:
 
-| Feature in NeuroDoc AI | Curriculum module it demonstrates |
+| Feature in NeuroDoc AI | demonstrates |
 |---|---|
-| Groq-hosted Llama 3.3 for generation | Section 3 — Accessing LLMs in Python (Groq LLMs) |
-| Chunking + embeddings + FAISS similarity search | Section 6 — RAG |
-| LLM-based tool routing (`rag` / `calculator` / `direct`) | Section 7 — AI Agents |
-| Streaming FastAPI backend, deployed on an EC2 instance | Section 8 — LLM Deployment |
-| Clear tool → server boundary (extendable to MCP) | Section 9 — MCP, natural next step |
+| Groq-hosted Llama 3.3 for generation | Accessing LLMs in Python (Groq LLMs) |
+| Chunking + embeddings + FAISS similarity search | RAG |
+| LLM-based tool routing (`rag` / `calculator` / `direct`) | AI Agents |
+| Streaming FastAPI backend, deployed on an EC2 instance |  LLM Deployment |
+| Clear tool → server boundary (extendable to MCP) | MCP, natural next step |
 
 ## Architecture
 
