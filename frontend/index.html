@@ -315,7 +315,7 @@
 
 <script>
 const API_BASE = "";
-const sessionId = crypto.randomUUID();
+const sessionId = 'sess-' + Date.now() + '-' + Math.random().toString(36).substring(2, 15);
 
 const messagesEl = document.getElementById('messages');
 const traceLogEl = document.getElementById('traceLog');
